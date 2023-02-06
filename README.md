@@ -34,9 +34,4 @@ to put hands on the mud and apply the whole knowledge i have now to aim somethin
 > * Numpy, Pandas, Matplotlib
 > * SQL-APIs 
 
-`I have used C/C++ for a videogame that I update personally in a private repository.`
 
-### What I'm learning
-
-I know that simply code and commands are not enough to enroll a data engineering job, so  
-I've been taking GCP and AWS courses in Coursera and by my own in tutorials.
