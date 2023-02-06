@@ -6,32 +6,37 @@
 virtual courses to  become into a real Data Engineer. So that, after mountains of videos and tutorial, i've decided  
 to put hands on the mud and apply the whole knowledge i have now to aim something cool. :alien:
 
-#### For now in this Repo you're gonna find xampls, some little application and projects.
+#### For now, in this Repository you're gonna find examples, some little application or projects.
 
 > :recycle: First of all I recommend you see all my training-road, if you're interested in know how to improve your skills
 > :ghost: You can check my xampl repository to see cool training, tests and web-scraping focused examples.
 > :candy: Also I save all the mix apps in the xlocal Repo. So there are codes whose do some cool stuffs.
 
-#### And whether you by any chance are a Recruter... :question: (Danger)
+#### And whether you by any chance are a Recruiter... :question: (Danger)
 
 > I plenty recommend you check the *xlocal* Repo. You won't be disappointed.  
 
-### Skills that we drive:
+### Skills I handle:
 
 #### Languages
 
-> * Python	:: 4.5
-> * SQL		:: 4.0 . Mysql / PostgreSQL
-> * NoSQL	:: 3.5 . MongoDB / Cassandra
-> * Bash	:: 3.5
-> * C/C++	:: 3.0
+> * Python
+> * MySQL
+> * AWS CLI
+> * Bash
+> * Django
+> * C/C++
 
-#### Utilities
+#### Utilities and modules
 
+> * AWS S3, RDS, Lambda, EC2 and Redshift.
+> * PySpark
+> * BeautifulSoup
+> * Requests
+> * Selenium
+> * Numpy
+> * Pandas
+> * mysql-connector 
 > * Airflow
-> * Spark
-> * BeautifulSoup, Requests, libcurl
-> * Numpy, Pandas, Matplotlib
-> * SQL-APIs 
 
 
