@@ -22,21 +22,23 @@ to put hands on the mud and apply the whole knowledge i have now to aim somethin
 
 > * Python
 > * MySQL
-> * AWS CLI
 > * Bash
 > * Django
 > * C/C++
 
 #### Utilities and modules
 
-> * AWS S3, RDS, Lambda, EC2 and Redshift.
+> * AWS S3, RDS, Lambda, EC2 and Glue
+> * AWS SDK
+> * AWS CLI
 > * PySpark
 > * BeautifulSoup
 > * Requests
 > * Selenium
+> * Airflow
 > * Numpy
 > * Pandas
 > * mysql-connector 
-> * Airflow
+
 
 
