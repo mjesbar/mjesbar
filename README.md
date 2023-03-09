@@ -29,7 +29,7 @@ to put hands on the mud and apply the whole knowledge i have now to aim somethin
 #### Utilities and modules
 
 > * AWS S3, RDS, Lambda, EC2 and Glue
-> * AWS SDK
+> * AWS SDK (boto3)
 > * AWS CLI
 > * PySpark
 > * BeautifulSoup
