@@ -1,7 +1,7 @@
 ## Hi, thanks for visit :blue_heart:
 
 
-![guys](img/meerkat.jpg 50x100)
+![guys](img/meerkat.jpg =50x100)
 
 :sparkles: this repo is first of all to show off my skills :fire:, sooo, i've been learning and eating a lot of  
 virtual courses to  become into a real Data Engineer. So that, after mountains of videos and tutorial, i've decided  
