@@ -3,11 +3,10 @@
 
 ![guys](img/meerkat.jpg)
 
-:sparkles: this repo is first of all to show off my skills :fire:, sooo, i've been learning and eating a lot of  
-virtual courses to  become into a real Data Engineer. So that, after mountains of videos and tutorial, i've decided  
-to put hands on the mud and apply the whole knowledge i have now to aim something cool. :alien:
+:sparkles: this repo is first of all to show off my skills :fire:, sooo, i've been learning and eating a lot of virtual courses to  become into a real BaskEnd/DataEngineer Developer. So that, after mountains of tutorials and projects, I've decided to put hands on the mud and show off whole knowledge i have by the moment in this repo. :alien:
 
 ### Languages
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -16,7 +15,6 @@ to put hands on the mud and apply the whole knowledge i have now to aim somethin
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 ### Frameworks and Tools
 
