@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>mjesbar.media.com</title>
+	</head>
+
+	<body style="margin: 0;">
+		<!-- <audio> Defines sound, such as music or other audio streams -->
+		<!-- <source> Defines multiple media resources for media elements (<video> and <audio>) -->
+		<h1>A simple audio tag</h1>
+		<audio src="res/sound0.wav" controls autoplay loop muted>
+			<source src="res/sound1.wav" type="audio/wav">
+		</audio>
+
+		<!-- <track> Defines text tracks for media elements (<video> and <audio>) -->
+		<track src="res/sound1.wav" kind="captions" srclang="en" label="English">
+
+		<!-- <video> Defines a video or movie -->
+		<h1>A simple video tag</h1>
+		<video width="20%" height="20%" autoplay muted loop style="float: left; margin: 20px;">
+			<source src="res/video0.mp4" type="video/mp4">
+		</video>
+		<video width="20%" height="20%" autoplay muted loop style="float: left; margin: 20px;">
+			<source src="https://player.vimeo.com/external/428947534.sd.mp4?s=a2ff11f332a122ae6e63f61b74de37c8ad5805c5&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+		</video>
+		<video width="20%" height="20%" autoplay muted loop style="float: left; margin: 20px;">
+			<source src="https://player.vimeo.com/external/559880023.sd.mp4?s=7445cd904634755802174ff794f2098ad80967f1&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+		</video>
+		<video width="20%" height="20%" autoplay muted loop style="float: left; margin: 20px;">
+			<source src="https://player.vimeo.com/external/567294450.sd.mp4?s=135552c50d23690d6de92bd20ac4daa8f0dec17e&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+		</video>
+
+	</body>
+
+</html>

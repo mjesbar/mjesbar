@@ -1,0 +1,321 @@
+/* this css file describe how mostly of html tags and elements
+ * could be styled. */ 
+
+
+/* Syntax demostration */
+h1 {
+	color: #d70aba;
+	font-size: 20px;
+}
+
+/* Selector */ 
+h2#subtitle {
+	color: #D70A36;
+	font-size: 20px;
+}
+div.subtitle {
+	color: #008f30;
+	font-size: 20px;
+}
+
+/* Colors */ 
+p#color-1 {
+	color: rgb(20, 20, 20); font-size: 20px;
+}
+p#color-2 {
+	color: hsl(343, 70%, 30%); font-size: 20px;
+}
+
+/* Backgrounds */ 
+div.background {
+	color: #B3B3B3;
+	background: #202020;
+	background-color: #404040;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url();
+}
+
+/* Borders */ 
+div.borders1 {border-style: dashed;}
+div.borders2 {border-style: dotted;}
+div.borders3 {border-style: double;}
+div.borders4 {border-style: groove;}
+div.borders5 {border-style: inset;}
+div.borders6 {border-style: ridge;}
+div.borders7 {border-style: outset;}
+div.borders8 {border-style: solid;}
+div.borders9 {border-style: hidden;}
+
+/* Margin */ 
+div.margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #505050;
+}
+
+/* Padding */ 
+div.padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #505050;
+}
+
+/* Height and Width */ 
+div.hw {
+	width: 200px;
+	height: 100px;
+	background-color: white;
+}
+
+/* Box Model */ 
+div.box-model {
+	height: 25px;
+	width: 200px;
+	border: 5px solid #d70a42;
+	padding: 10px;
+	margin: 10px;	
+}
+
+/* Outline */ 
+div.outline {
+	outline-style: dashed;
+	outline-color: #d70aba;
+	outline-width: 5px;
+}
+
+/* Text */ 
+p.text {
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: underline;
+	background: #000000;
+}
+
+/* Fonts */ 
+p.font-style {
+	font-family: 'MesloLGS NFM';
+	font-size: 18px;
+}
+
+/* Icons */
+
+/* Links */
+a:link {color: blue;}
+a:visited {color: red;}
+a:hover {color: blueviolet;}
+a:active {color: blue;}
+
+
+/* Lists */
+ul {list-style-type: armenian;}
+ol {list-style-type: upper-latin;}
+
+/* Display */
+span.gg-adidas {display: inline-block;}
+
+/* Position */
+div.static {
+	width: 200px;
+	height: 100px;
+	position: static;
+	border: 5px solid black;
+	left: 50px; /* can't move it */
+	background-color: #d70a36;
+}
+div.relative {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	border: 5px solid black;
+	left: 50px;
+	background-color: #d70a36;
+}
+div.fixed {
+	width: 200px;
+	height: 100px;
+	position: fixed;
+	border: 5px solid black;
+	left: 50px;
+	bottom: 0px;
+	background-color: #d70a36;
+}
+div.absolute {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	border: 5px solid black;
+	left: 50px;
+	bottom: -500px;
+	background-color: #d70a36;
+}
+div.sticky {
+	width: 200px;
+	height: 100px;
+	position: sticky;
+	border: 5px solid black;
+	left: 50px;
+	bottom: 0px;
+	background-color: #d70a36;
+}
+div.overlapping {
+	width: 200px;
+	height: 100px;
+	position: overlapping;
+	border: 5px solid black;
+	left: 50px;
+	bottom: 0px;
+	background-color: #d70a36;
+}
+
+/* Overflow */
+div.overflow {
+	width: 200px;
+	height: 100px;
+	background-color: #252525;
+	border: 1px dotted green;
+	z-index: -2;
+	overflow: visible;
+	overflow: scroll;
+}
+
+/* Float */
+div.float {
+	width: 200px;
+	height: 25px;
+	background:  aqua;
+	border: 5px dotted black;
+	float: right;
+}
+
+/* Inline-Block */
+div.inline {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	background-color: aquamarine;
+	border: 1px solid aqua;
+}
+div.block {
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	background-color: aquamarine;
+	border: 1px solid aqua;
+}
+div.inline-block {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	background-color: aquamarine;
+	border: 1px solid aqua;
+}
+
+/* Align */
+div.align {
+	text-align: end;
+	margin: auto;
+	width: 50%;
+	border: 5px dotted;
+	padding: 5px;
+	background: green;
+
+}
+
+/* Forms */
+input[type=text] {
+	font-family: 'MesloLGS NFM'; font-size: 18px;
+	display: inline-block;
+	width: 400px; height: 20px;
+	padding: 10px;	margin: 5px; border: 1px solid #ccc; border-radius: 10px;
+	background-color: #FFFFFF;
+}
+form {
+	background-color: #505050;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+/* Border Radius */
+img[alt="image0"] {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 25px; border: 2px dashed #d70a42; margin: 5px; padding: 2px;
+}
+
+/* Gradient */
+div.gradient {
+	vertical-align: top;
+	display: inline-block; width: 200px; height: 100px;
+	border-radius: 25px; border: 2px dashed #d70a42; margin: 5px; padding: 2px;
+	background: linear-gradient(30deg, #d70a42, #d70aba);
+}
+
+/* Shadows */
+div.shadow {
+	vertical-align: top;
+	text-align: center;
+	line-height: 100px;
+	display: inline-block; width: 200px; height: 100px;
+	border-radius: 25px; border: 2px dashed #d70a42; margin: 5px; padding: 2px;
+	background: #d70a42;
+	box-shadow: 20px 20px 0px 10px #8f8f8f;
+}
+
+/* Transitions */
+div.transition {
+	vertical-align: top;
+	display: inline-block; width: 200px; height: 100px;
+	border-radius: 25px; border: 2px dashed #d70a42; margin: 5px; padding: 2px;
+	background: #d70a42;
+	transition: width 0.25s, height 0.25s, background-color 0.25s;
+}
+div.transition:hover {
+	width: 375px; height: 225px; background-color: #000000;
+}
+
+/* Animations */
+div.animation {
+	vertical-align: top;
+	display: inline-block; width: 200px; height: 100px;
+	border-radius: 25px; border: 2px dashed #d70a42; margin: 5px; padding: 2px;
+	background: #d70a42;
+	animation: mymove 2s infinite;
+}
+@keyframes mymove {
+	/* from {background-color: #xxxxxx} */
+	0% {background-color: #d70a42;}
+	25% {background-color: #e0b3b3;}
+	50% {background-color: #d70a42;}
+	75% {background-color: #e0b3b3;}
+	100% {background-color: #d70a42;}
+	/* to {background-color: #xxxxxx} */
+}
+
+/* Buttons */ 
+button {
+	display: inline-block; width: 200px; height: 100px;
+	margin: 5px; border: none; padding: 5px; border-radius: 5px;
+	background-color: blueviolet;
+
+}
+button:hover {
+	background-color: greenyellow;
+}
+
+/* Media Queries */ 
+@media screen and (min-width: 600px) {
+	body {
+		background-color: #e0e0e0;
+	}
+}
+
+

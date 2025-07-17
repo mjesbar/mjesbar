@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>mjesbar.images.com</title>
+	</head>
+
+	<body>
+
+		<h2>Canvas area</h2>
+
+		<!-- <img> tag is used to display images -->
+		<img src="res/image0.jpg" alt="image0" usemap="#mymap">
+
+		<!-- <map> Defines a client-side image map -->
+		<map name="#mymap">
+			<!-- <area> Defines a clickable area inside an image map -->
+			<area shape="rect" coords="0,0,603,400" href="res/image0.jpg" alt="image0">
+		</map>
+
+		<!-- <canvas> Defines a drawing area. Used to draw graphics, on the fly via scripting (Javascript) -->
+		<canvas id="myCanvas" width="700" height="500"></canvas>
+
+		<!-- Defines a caption for a <figure> element -->
+		<figcaption></figcaption>
+
+		<!-- <figure> tag is used to group media content, and their caption, in a document -->
+		<figure>
+			<img src="res/image0.jpg" alt="image0" usemap="#mymap">
+			<figcaption>image0 figcaption</figcaption>
+		</figure>
+
+		<!-- <picture> tag Defines a container for multiple image resources -->
+		<picture>
+			<img src="res/image0.jpg" width="420" height="280">
+			<img src="res/image1.jpg" width="420" height="280">
+			<img src="res/image0.jpg" width="420" height="280">
+			<img src="res/image1.jpg" width="420" height="280">
+		</picture>
+
+		<!-- <svg> Defines a container for a SVG graphics -->
+		<svg>
+			<!-- align this svg to the left -->
+			<img src="res/image2.svg" alt="image2" width="960" height="540">
+
+		</svg>
+
+
+	</body>
+
+</html>

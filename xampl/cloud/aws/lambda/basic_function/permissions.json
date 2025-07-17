@@ -1,0 +1,8 @@
+{
+    "FunctionName": "my_function",
+    "StatementId": "myFunctionS3InvokePermission",
+    "Action": "lambda:InvokeFunction",
+    "Principal": "s3.amazonaws.com",
+    "SourceArn": "arn:aws:s3:::nigguebucket",
+    "SourceAccount": "326117943082"
+}

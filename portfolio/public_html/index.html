@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Mjesbar Dev</title>
+    <script type="module" src="/src/components/mj-nav.js"></script>
+    <script type="module" src="/src/components/mj-section.js"></script>
+    <script type="module" src="/src/components/mj-section-textalone.js"></script>
+    <script type="module" src="/src/components/mj-section-dual.js"></script>
+    <script type="module" src="/src/components/mj-footer.js"></script>
+    <script type="module" src="/src/palette.js"></script>
+    <script type="module" src="/src/core.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mjesbar, software, engineer, portfolio, developer">
+    <meta name="description"
+          content="Mjesbar.dev software engineer. Professional portfolio.">
+    <meta property="og:title" content="Mjesbar.dev">
+    <meta property="og:description"
+          content="Mjesbar.dev software engineer. Professional portfolio.">
+    <meta property="og:url" content="https://mjesbar.dev">
+    <meta property="og:image" content="https://mjesbar.dev/src/assets/meta-image.webp">
+  </head>
+
+  <body>
+    <header>
+      <mj-nav></mj-nav>
+    </header>
+    <main style="display: flex; flex-direction: column; justify-content: start;
+    align-items: center; width: 100%; height: auto;">
+      <mj-section-textalone
+        main-text="Welcome"
+        sub-text="My Friend"
+        mini-text="Enjoy this page!"
+        background-image="/src/assets/neural.webp">
+      </mj-section-textalone>
+      <mj-section-textalone
+        main-text="My Name is Miguel Bello"
+        sub-text="I'm an Industrial & Software Engineer"
+        mini-text="and even more..."
+        background-image="/src/assets/circles.webp">
+      </mj-section-textalone>
+      <mj-section-dual 
+        img-pos="left"
+        img-src="/src/assets/profile-photo-1440p.webp"
+        lines="TradingGodBlessYouFirstPeaceFreedomRationalityProudTeamwork,
+        ManufactureBuildIdealVenture Work ProductivityLogisticsMentorship,
+        LogicInnovationDesign Service EnginuitySoftwareDevelopment,
+        IndependentJoyfulHumbleNeed About KindnessFriendly,
+        IntrovertLinkedWarmful Contact NetworkUpToDate,
+        HopeDiversityEnjoyPassionateEncourageFaithLoveHelpful">
+      </mj-section-dual>
+    </main>
+    <mj-footer
+      message="Let's Create Great Things Together! 🚀"
+      mini-text="I've built this site with pure javascript Web Components, React makes
+      me 😴 Dude">
+    </mj-footer>
+  </body>
+
+</html>

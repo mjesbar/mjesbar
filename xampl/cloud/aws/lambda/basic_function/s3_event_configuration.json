@@ -1,0 +1,25 @@
+{
+    "Bucket": "nigguebucket",
+    "NotificationConfiguration": {
+        "LambdaFunctionConfigurations": [
+            {
+                "Id": "s3TestRemovalEvent",
+                "LambdaFunctionArn": "arn:aws:lambda:us-east-1:326117943082:function:my_function",
+                "Events": [
+                    "s3:ObjectRemoved:*"
+                ]
+            },
+            {
+                "Id": "s3TestCreationEvent",
+                "LambdaFunctionArn": "arn:aws:lambda:us-east-1:326117943082:function:my_function",
+                "Events": [
+                    "s3:ObjectCreated:*"
+                ]
+            }
+
+        ],
+        "EventBridgeConfiguration": {}
+    },
+    "ExpectedBucketOwner": "326117943082",
+    "SkipDestinationValidation": true
+}

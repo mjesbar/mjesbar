@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Mjesbar Work</title>
+    <script type="module" src="/src/components/mj-section-work.js"></script>
+    <script type="module" src="/src/components/mj-nav.js"></script>
+    <script type="module" src="/src/palette.js"></script>
+    <script type="module" src="/src/core.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <mj-nav></mj-nav>
+    </header>
+    <main style="display: flex; flex-direction: column; justify-content: start;
+    align-items: center; width: 100%; height: auto;">
+  
+      <mj-section-work
+        subtitle="Literals, Videogame Prototype"
+        description1="Literals is a development that allowed me to improve my systems
+        thinking skills. I learned about complex projects and code scalability."
+        description2="Literals is a video game idea that I had a long time ago, and
+        that I have been working on parallel whenever I can. Although it is a
+        prototype for now, I hope to be able to leverage it as an official release in
+        a store that allows me to distribute it as an indie game development. This
+        project required C++, some Python script and
+        <a href='https://godotengine.org/' style='color: #FFFFFF' target='_blank'>
+        Godot Engine</a> knowledge."
+        background-src="/src/assets/patreon-cover.webp"
+        media-src="/src/assets/literals*.webm"
+        medias="2"
+        icon-top-src="/src/assets/videogame.webp"
+        icon-bot-src="/src/assets/joystick.webp"
+        link-url="https://github.com/mjesbar/literals">
+      </mj-section-work>
+
+      <mj-section-work
+        subtitle="Erickson Stock, Photographic Gallery"
+        description1="This was a project that I worked on as a freelance developer.
+        I was in charge of the backend-end development of the website. Setting up
+        the server for make available the images and videos."
+        description2="The website required a lot of optimization for the images and
+        videos. I had to make sure that the website was fast and responsive. I
+        worked with the team to make sure that the website was user-friendly and
+        that the user experience was the best possible. The team used C#, MySQL,
+        <a href='https://www.asp.net/' style='color: #FFFFFF' target='_blank'>
+        ASP.NET</a> for the backend. The website was integrated with
+        <a href='https://openai.com/api/' style='color: #FFFFFF' target='_blank'>
+        OpenAI API (ChatGPT)</a> for auto-tagging the images and videos. in an try
+        to use the most advanced AI technologies available."
+        background-src="/src/assets/erickson-background.webp"
+        media-src="/src/assets/ericksonstock.webm"
+        medias="1"
+        icon-top-src="/src/assets/ericksonstock-collage.webp"
+        icon-bot-src="/src/assets/ericksonstock-collage2.webp"
+        link-url="https://ericksonstock.com/">
+      </mj-section-work>
+
+      <mj-section-work
+        subtitle="Martian Rover, AESS Rover Challenge Contest"
+        description1="This project was a contest where some friends and I participated.
+        The AESS organized a
+        <a href='https://aesscolombia.blogspot.com/p/rover-2024.html'
+        style='color: #FFFFFF' target='_blank'>Contest</a>
+        where we had to build a rover that could plant a seed of corn in a pot. The
+        rover had to be controlled remotely and had to be able to navigate through
+        natural obstacles. It was supposed to be implemented for real applications
+        in agricultural Colombian farms as prototype."
+        description2="I write the firmware to Motion control, the communication via
+        I2C, UART and Traditional Serial protocols in C++ and Python. We used a
+        variantion of Rasberry Pi called Orange Pi."
+        background-src="/src/assets/rover-design.webp"
+        media-src="/src/assets/rover.webm"
+        medias="1"
+        icon-top-src="/src/assets/rover-design.webp"
+        icon-bot-src="/src/assets/raspi-icon.webp"
+        link-url="https://github.com/mjesbar/portfolio">
+      </mj-section-work>
+
+      <mj-section-work
+        subtitle="My Portfolio, Professional Website"
+        description1="This is my personal website. I created it to showcase my work
+        and to show my skills as a developer. I wanted to create a website that was
+        simple and minimalist, leveraging on Web Components of the Web API.
+        Trying to use another technology apart from React.js which is the framework
+        mostly I work with."
+        description2="I used
+        <a href='https://developer.mozilla.org/en-US/docs/Web/Web_Components'
+           style='color: #FFFFFF' target='_blank'>Web Components</a> to create the
+        website and pure
+        <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+           style='color: #FFFFFF' target='_blank'>JavaScript</a>."
+        background-src="/src/assets/background.webp"
+        media-src="/src/assets/portfolio.webm"
+        medias="1"
+        icon-top-src="/src/assets/profile-thumbnail.webp"
+        icon-bot-src="/src/assets/meta-image.webp"
+        link-url="https://github.com/mjesbar/portfolio">
+      </mj-section-work>
+
+      <mj-section-work
+        subtitle="JobScraping"
+        description1="Sometimes when we got fired or we are looking for a job, we
+        need to search for job offers in different websites. This project is a
+        web scraper that allows you to search for job offers in different websites
+        at the same time. It is a simple project that I created to help me find a
+        job when I was looking for one."
+        description2="Also i was able to extract, transform and load the data
+        saved in a parquet towards an Analytics tool like PowerBI or Tableau. I build
+        a <a href='https://aws.amazon.com/lambda/' style='color: #FFFFFF'
+        target='_blank'>Lambda</a> function in my personal
+        <a href='https://aws.amazon.com/' style='color: #FFFFFF' target='_blank'>AWS</a>
+        account to run the scraper every day and save the data in a
+        <a href='https://aws.amazon.com/s3/' style='color: #FFFFFF' target='_blank'>
+           S3</a> Bucket."
+        background-src="/src/assets/jobpost-background.webp"
+        media-src="/src/assets/jobpost.webm"
+        medias="1"
+        icon-top-src="/src/assets/aws-512.webp"
+        icon-bot-src="/src/assets/selenium-500.webp"
+        link-url="https://github.com/mjesbar/jobpost">
+      </mj-section-work>
+
+      <mj-section-work
+        subtitle="CryptoScraping"
+        description1="After eating a lot of courses about python, I got so bored and
+        overwhelmed due to excessive information. So I decided to apply what I learned
+        in a real project. This project is a web scraper that allows you to search for
+        cryptocurrencies in different websites at the same time."
+        description2="This was my first step on 
+        <a href='https://www.python.org/' style='color: #FFFFFF' target='_blank'>
+        Python</a> programming you can check the Github at the link below the media.
+        don't be rude 😢."
+        background-src="/src/assets/cryptocurrency-background.webp"
+        media-src="/src/assets/cryptocurrency.webm"
+        medias="1"
+        icon-top-src="/src/assets/bitcoin-512.webp"
+        icon-bot-src="/src/assets/python-512.webp"
+        link-url="https://github.com/mjesbar/cryptocurrency">
+      </mj-section-work>
+
+    </main>
+  </body>
+
+</html>
