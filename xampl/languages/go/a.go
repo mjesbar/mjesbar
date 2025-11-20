@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 )
 
 // Variables
@@ -48,7 +49,21 @@ func (self MyClass) MyClassMethod(n int) int {
 	return self.m1
 }
 
-// Goroutines
+// Go routines
+func routine1() {
+	time.Sleep(1 * time.Second)
+	fmt.Println("End of the routine 1")
+}
+
+func routine2() {
+	time.Sleep(2 * time.Second)
+	fmt.Println("End of the routine 2")
+}
+
+func routine3(c chan int) {
+	time.Sleep(3 * time.Second)
+	c <- 1
+}
 
 // Outputs
 func Af() {
@@ -67,4 +82,15 @@ func Af() {
 	fmt.Println("Hello", strings.Join(s, " "))
 	fmt.Println("MyClass", instance.m1, instance.m2, instance.m3)
 	fmt.Println("MyClass", instance.MyClassMethod(15))
+
+	go routine1()
+	go routine2()
+	time.Sleep(3 * time.Second)
+	fmt.Println("End of all Go routines")
+
+	c := make(chan int)
+	go routine3(c)
+	fmt.Println("ZzZzZz waiting for routine3()...")
+	<-c
+	fmt.Println("End of the routine 3 (waited channel)")
 }
