@@ -49,6 +49,33 @@ func (self MyClass) MyClassMethod(n int) int {
 	return self.m1
 }
 
+// Interfaces
+type Looker interface {
+	Look() bool
+}
+
+type Person struct {
+	Name string
+}
+
+type Extraterrestrial struct {
+	Name string
+}
+
+func (p Person) Look() bool {
+	return true
+}
+
+func (p Extraterrestrial) Look() bool {
+	return false
+}
+
+type Number interface{ ~int32 | ~float32 }
+
+func SumNumbers[N Number](n1 N, n2 N) N {
+	return n1 + n2
+}
+
 // Go routines
 func routine1() {
 	time.Sleep(1 * time.Second)
@@ -93,4 +120,17 @@ func Af() {
 	fmt.Println("ZzZzZz waiting for routine3()...")
 	<-c
 	fmt.Println("End of the routine 3 (waited channel)")
+
+	var l, e Looker
+	l = Person{Name: "Heissenberg"}
+	e = Extraterrestrial{Name: "Jimmy"}
+	fmt.Println("Looking?:", l.Look())
+	fmt.Println("Looking?:", e.Look())
+	// fmt.Println("Flying?:", l.Fly()) // Looker interface doesn't have the 'Fly()' method signature
+
+	var in int32 = 23
+	var fn float32 = 3.23
+	fmt.Println("SumInts:", SumNumbers(in, in))
+	fmt.Println("SumInts:", SumNumbers(fn, fn))
+
 }
