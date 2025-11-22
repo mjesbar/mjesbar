@@ -117,7 +117,7 @@ func Af() {
 	fmt.Println("MyClass", instance.m1, instance.m2, instance.m3)
 	fmt.Println("MyClass", instance.MyClassMethod(15))
 	var varassert interface{} = []string{"a", "b", "c"}
-	fmt.Println("MyClass", varassert.([]int))
+	fmt.Println("Assertion", varassert.([]string))
 
 	go routine1()
 	go routine2()
