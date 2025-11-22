@@ -116,6 +116,8 @@ func Af() {
 	fmt.Println("Hello", strings.Join(s, " "))
 	fmt.Println("MyClass", instance.m1, instance.m2, instance.m3)
 	fmt.Println("MyClass", instance.MyClassMethod(15))
+	var varassert interface{} = []string{"a", "b", "c"}
+	fmt.Println("MyClass", varassert.([]int))
 
 	go routine1()
 	go routine2()
