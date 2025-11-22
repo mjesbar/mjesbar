@@ -20,6 +20,9 @@ var float64bits float64 = .9213125243543
 // Arrays
 var array []string = []string{"hola", "como", "estas"}
 
+// Slices
+var slice []int = make([]int, 5)
+
 // Structs
 type Vector struct {
 	x float32
@@ -104,6 +107,10 @@ func Af() {
 	fmt.Println("Float32:", float32bits)
 	fmt.Println("Float64:", float64bits)
 	fmt.Println("Array:", array)
+	slice = []int{1, 2, 3, 4, 5}
+	fmt.Println("Slice1:", slice)
+	slice = []int{0, 2, 0, 4, 0, 6}
+	fmt.Println("Slice2:", slice)
 	fmt.Println("Struct:", vector)
 	s := shortv()
 	fmt.Println("Hello", strings.Join(s, " "))
@@ -132,5 +139,13 @@ func Af() {
 	var fn float32 = 3.23
 	fmt.Println("SumInts:", SumNumbers(in, in))
 	fmt.Println("SumInts:", SumNumbers(fn, fn))
+
+	channel := make(chan int, 2)
+	channel <- 0
+	channel <- 1
+	fmt.Println("Initial Channel Value:", <-channel) // 0
+	channel <- 999
+	fmt.Println("Mid Channel Value:", <-channel) // 1
+	fmt.Println("End Channel Value:", <-channel) // 999
 
 }
