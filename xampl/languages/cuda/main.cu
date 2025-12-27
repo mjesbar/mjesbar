@@ -14,15 +14,17 @@ void cudaHostFunction() {
 // CUDA kernel function
 __global__ void cudaKernelFunction(int* a) {
     printf("This is a CUDA kernel function. block.x %d, thread.x %d\n", blockIdx.x, threadIdx.x);
-    *a = 42;
+    atomicAdd(a, 1);
 }
 
 // Common main function of C/C++
 int main() {
     int* d_a = nullptr;
-    int a = 0;
+    int a = 89;
     int* h_a = &a;
     cudaMalloc((void**)&d_a, sizeof(int));
+    cudaMemcpy(d_a, h_a, sizeof(int), cudaMemcpyHostToDevice);
+
 
     printf("Hello, World!\n");
     normalFunction();
