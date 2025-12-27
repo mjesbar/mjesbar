@@ -13,7 +13,7 @@ void cudaHostFunction() {
 
 // CUDA kernel function
 __global__ void cudaKernelFunction(int* a) {
-    printf("This is a CUDA kernel function. block.x %d, thread.x %d\n", blockIdx.x, threadIdx.x);
+    printf("This is a CUDA kernel function. block.x %d, block.y %d, thread.x %d, thread.y %d\n", blockIdx.x, blockIdx.y, threadIdx.x, threadIdx.y);
     atomicAdd(a, 1);
 }
 
@@ -21,18 +21,19 @@ __global__ void cudaKernelFunction(int* a) {
 int main() {
     int* d_a = nullptr;
     int a = 89;
-    int* h_a = &a;
     cudaMalloc((void**)&d_a, sizeof(int));
-    cudaMemcpy(d_a, h_a, sizeof(int), cudaMemcpyHostToDevice);
+    cudaMemcpy(d_a, &a, sizeof(int), cudaMemcpyHostToDevice);
 
 
     printf("Hello, World!\n");
     normalFunction();
     cudaHostFunction();
-    cudaKernelFunction<<<2, 10>>>(d_a);
+    dim3 grid_size(3,3);
+    dim3 block_size(3,3);
+    cudaKernelFunction<<<grid_size, block_size>>>(d_a);
     cudaDeviceSynchronize();
-    cudaMemcpy(h_a, d_a, sizeof(int), cudaMemcpyDeviceToHost);
-    printf("Kernel execution completed. a: %d\n", *h_a);
+    cudaMemcpy(&a, d_a, sizeof(int), cudaMemcpyDeviceToHost);
+    printf("Kernel execution completed. a: %d\n", a);
 
     cudaFree(d_a);
     return 0;
