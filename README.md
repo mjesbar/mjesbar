@@ -9,7 +9,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-1a1a1a?style=for-the-badge&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/javascript-1a1a1a?style=for-the-badge&logo=javascript)
 ![Python](https://img.shields.io/badge/python-1a1a1a?style=for-the-badge&logo=python)
-![C#](https://img.shields.io/badge/c%23-1a1a1a?style=for-the-badge&logo=dotnet)
+![C#](https://img.shields.io/badge/c%23-1a1a1a?style=for-the-badge&logo=c-sharp)
 ![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash)
 ![C++](https://img.shields.io/badge/c++-1a1a1a?style=for-the-badge&logo=c%2B%2B)
 ![C](https://img.shields.io/badge/c-1a1a1a?style=for-the-badge&logo=c) ![WebAssembly](https://img.shields.io/badge/WebAssembly-1a1a1a?style=for-the-badge&logo=webassembly)
@@ -24,7 +24,7 @@
 
 ### IoT
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi) ![STMicroelectronics](https://img.shields.io/badge/STMicroelectronics-1a1a1a?style=for-the-badge&logo=stmicroelectronics) ![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino) ![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
 
 ### Cloud Platforms
 
@@ -36,7 +36,7 @@
 
 ### Editors
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1a1a1a?style=for-the-badge&logo=visual-studio-code) ![Neovim](https://img.shields.io/badge/NeoVim-1a1a1a?style=for-the-badge&logo=neovim) ![Zed](https://img.shields.io/badge/Zed-1a1a1a?style=for-the-badge&logo=zedindustries) ![WordPress](https://img.shields.io/badge/WordPress-1a1a1a?style=for-the-badge&logo=wordpress)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1a1a1a?style=for-the-badge&logo=dotnet) ![Neovim](https://img.shields.io/badge/NeoVim-1a1a1a?style=for-the-badge&logo=neovim) ![Zed](https://img.shields.io/badge/Zed-1a1a1a?style=for-the-badge&logo=zedindustries) ![WordPress](https://img.shields.io/badge/WordPress-1a1a1a?style=for-the-badge&logo=wordpress)
 
 ### Mobile
 
@@ -44,8 +44,12 @@
 
 ### CLI Agents
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic) ![Codex](https://img.shields.io/badge/Codex-1a1a1a?style=for-the-badge&logo=everydotorg) ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic) ![Codex](https://img.shields.io/badge/Codex-1a1a1a?style=for-the-badge&logo=openai) ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=opencode)
 
 ### Versioning
 
 ![Git](https://img.shields.io/badge/git-1a1a1a?style=for-the-badge&logo=git) ![GitHub](https://img.shields.io/badge/github-1a1a1a?style=for-the-badge&logo=github)
+
+### Learning :brain:
+
+![CUDA](https://img.shields.io/badge/CUDA-1a1a1a?style=for-the-badge&logo=nvidia) ![Vulkan](https://img.shields.io/badge/Vulkan_Kompute-1a1a1a?style=for-the-badge&logo=vulkan)
