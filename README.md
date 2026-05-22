@@ -1,36 +1,51 @@
 # Hi, thanks for visit :blue_heart:
 
 <div align="center">
-  <img src="img/meerkat2.jpg" alt="guys" style="max-height: 300px;">
+  <img src="img/meerkat2.jpg" alt="guys" height="300">
 </div>
 
 ### Languages
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a1a1a?style=for-the-badge&logo=typescript)
+![JavaScript](https://img.shields.io/badge/javascript-1a1a1a?style=for-the-badge&logo=javascript)
+![Python](https://img.shields.io/badge/python-1a1a1a?style=for-the-badge&logo=python)
+![C#](https://img.shields.io/badge/c%23-1a1a1a?style=for-the-badge&logo=dotnet)
+![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash)
+![C++](https://img.shields.io/badge/c++-1a1a1a?style=for-the-badge&logo=c%2B%2B)
+![C](https://img.shields.io/badge/c-1a1a1a?style=for-the-badge&logo=c) ![WebAssembly](https://img.shields.io/badge/WebAssembly-1a1a1a?style=for-the-badge&logo=webassembly)
 
 ### Frameworks
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-1a1a1a?style=for-the-badge&logo=react) ![Next.js](https://img.shields.io/badge/Next.js-1a1a1a?style=for-the-badge&logo=nextdotjs) ![Express.js](https://img.shields.io/badge/Express.js-1a1a1a?style=for-the-badge&logo=express) ![Bun Serve](https://img.shields.io/badge/Bun_Serve-1a1a1a?style=for-the-badge&logo=bun) ![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/Flask-1a1a1a?style=for-the-badge&logo=flask) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-1a1a1a?style=for-the-badge&logo=tailwind-css) ![.Net](https://img.shields.io/badge/.NET-1a1a1a?style=for-the-badge&logo=dotnet)
+
+### Runtimes
+
+![npm](https://img.shields.io/badge/npm-1a1a1a?style=for-the-badge&logo=npm) ![Bun](https://img.shields.io/badge/Bun-1a1a1a?style=for-the-badge&logo=bun) ![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python) ![.NET](https://img.shields.io/badge/.NET-1a1a1a?style=for-the-badge&logo=dotnet)
+
+### IoT
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
 
 ### Cloud Platforms
 
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-1a1a1a?style=for-the-badge&logo=google-cloud) ![AWS](https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=cloudflare)
 
 ### OS
 
-![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-1a1a1a?style=for-the-badge&logo=debian) ![Ubuntu](https://img.shields.io/badge/Ubuntu-1a1a1a?style=for-the-badge&logo=ubuntu) ![Windows 11](https://img.shields.io/badge/Windows%2011-1a1a1a?style=for-the-badge&logo=dotnet)
 
 ### Editors
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1a1a1a?style=for-the-badge&logo=visual-studio-code) ![Neovim](https://img.shields.io/badge/NeoVim-1a1a1a?style=for-the-badge&logo=neovim) ![Zed](https://img.shields.io/badge/Zed-1a1a1a?style=for-the-badge&logo=zedindustries) ![WordPress](https://img.shields.io/badge/WordPress-1a1a1a?style=for-the-badge&logo=wordpress)
+
+### Mobile
+
+![Flutter](https://img.shields.io/badge/Flutter-1a1a1a?style=for-the-badge&logo=flutter) ![React Native](https://img.shields.io/badge/React_Native-1a1a1a?style=for-the-badge&logo=react)
+
+### CLI Agents
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic) ![Codex](https://img.shields.io/badge/Codex-1a1a1a?style=for-the-badge&logo=everydotorg) ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=square)
 
 ### Versioning
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-1a1a1a?style=for-the-badge&logo=git) ![GitHub](https://img.shields.io/badge/github-1a1a1a?style=for-the-badge&logo=github)
