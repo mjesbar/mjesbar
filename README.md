@@ -44,7 +44,7 @@
 
 ### CLI Agents
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic) ![Codex](https://img.shields.io/badge/Codex-1a1a1a?style=for-the-badge&logo=openai) ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=opencode)
+![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic) ![Codex](https://img.shields.io/badge/Codex-1a1a1a?style=for-the-badge&logo=square) ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=square)
 
 ### Versioning
 
