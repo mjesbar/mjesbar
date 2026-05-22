@@ -36,7 +36,7 @@
 
 ### Editors
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1a1a1a?style=for-the-badge&logo=dotnet) ![Neovim](https://img.shields.io/badge/NeoVim-1a1a1a?style=for-the-badge&logo=neovim) ![Zed](https://img.shields.io/badge/Zed-1a1a1a?style=for-the-badge&logo=zedindustries) ![WordPress](https://img.shields.io/badge/WordPress-1a1a1a?style=for-the-badge&logo=wordpress)
+![Neovim](https://img.shields.io/badge/NeoVim-1a1a1a?style=for-the-badge&logo=neovim) ![Zed](https://img.shields.io/badge/Zed-1a1a1a?style=for-the-badge&logo=zedindustries) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1a1a1a?style=for-the-badge&logo=dotnet) ![WordPress](https://img.shields.io/badge/WordPress-1a1a1a?style=for-the-badge&logo=wordpress)
 
 ### Mobile
 
