@@ -24,7 +24,7 @@
 
 ### IoT
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi) ![STMicroelectronics](https://img.shields.io/badge/STMicroelectronics-1a1a1a?style=for-the-badge&logo=stmicroelectronics) ![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino) ![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi) ![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino) ![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
 
 ### Cloud Platforms
 
