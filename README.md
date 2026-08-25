@@ -1,4 +1,4 @@
-# Hi, thanks for visit :blue_heart:
+# Hi, :blue_heart:
 
 <div align="center">
   <img src="img/meerkat2.jpg" alt="guys" height="400">
