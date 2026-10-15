@@ -20,6 +20,7 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-1a1a1a?style=for-the-badge&logo=webassembly)
 
+---
 ### Fullstack Frameworks
 
 #### UI
@@ -43,23 +44,7 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ![ElysiaJS](https://img.shields.io/badge/elysiajs-1a1a1a?style=for-the-badge&logo=bun)
 ![FastAPI](https://img.shields.io/badge/fastAPI-1a1a1a?style=for-the-badge&logo=fastapi)
 
-### Cloud Platforms
-
-![Google Cloud](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=google-cloud)
-![AWS](https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=cloudflare)
-
-### IoT
-
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
-![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino)
-![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
-
-### OS
-
-![Debian](https://img.shields.io/badge/Debian-1a1a1a?style=for-the-badge&logo=debian)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-1a1a1a?style=for-the-badge&logo=ubuntu)
-![Windows 11](https://img.shields.io/badge/Windows%2011-1a1a1a?style=for-the-badge&logo=dotnet)
-
+---
 ### AI
 
 #### Cloud Frameworks
@@ -73,16 +58,46 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ![Ollama](https://img.shields.io/badge/Ollama-1a1a1a?style=for-the-badge&logo=ollama)
 ![Llama.cpp](https://img.shields.io/badge/llama.cpp-1a1a1a?style=for-the-badge&logo=ollama)
 
-#### Agents
+#### RAG Engines
+
+![Milvus](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=milvus)
+![Neo4j](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=neo4j)
+
+#### Development Agents
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic)
 ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=square)
 
-### Versioning / CI/CD
+---
+### Cloud Platforms
+
+![Google Cloud](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=google-cloud)
+![AWS](https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=cloudflare)
+
+---
+### Versioning / CI/CD & DevOps
 
 ![Git](https://img.shields.io/badge/git-1a1a1a?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/github-1a1a1a?style=for-the-badge&logo=github)
+![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker)
+![Grafana](https://img.shields.io/badge/Grafana-1a1a1a?style=for-the-badge&logo=grafana)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1a1a1a?style=for-the-badge&logo=kubernetes)
 
+---
+### IoT
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
+![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino)
+![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
+
+---
+### OS
+
+![Debian](https://img.shields.io/badge/Debian-1a1a1a?style=for-the-badge&logo=debian)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-1a1a1a?style=for-the-badge&logo=ubuntu)
+![Windows 11](https://img.shields.io/badge/Windows%2011-1a1a1a?style=for-the-badge&logo=dotnet)
+
+---
 ### Learning/Exploring :brain:
 
 ![CUDA](https://img.shields.io/badge/CUDA-1a1a1a?style=for-the-badge&logo=nvidia)
