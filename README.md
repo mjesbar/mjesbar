@@ -7,7 +7,7 @@
 ### Expertise
 
 I'm a software engineer since more than 3+ years, working on end to end fullstack solutions for a variety of companies. My core expertise is Fullstack, AI & RAG engineering, implementing modern architectures and cost effective serverless setups. Also very proficient and flexible on IoT and Cloud native workloads.
-
+---
 ### Languages
 
 ![TypeScript](https://img.shields.io/badge/typeScript-1a1a1a?style=for-the-badge&logo=typescript)
