@@ -60,8 +60,8 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 
 #### RAG Engines
 
-![Milvus](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=milvus)
-![Neo4j](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=neo4j)
+![Milvus](https://img.shields.io/badge/Milvus-1a1a1a?style=for-the-badge&logo=milvus)
+![Neo4j](https://img.shields.io/badge/Neo4j-1a1a1a?style=for-the-badge&logo=neo4j)
 
 #### Development Agents
 
@@ -82,13 +82,6 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker)
 ![Grafana](https://img.shields.io/badge/Grafana-1a1a1a?style=for-the-badge&logo=grafana)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-1a1a1a?style=for-the-badge&logo=kubernetes)
-
----
-### IoT
-
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
-![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino)
-![Orange Pi](https://img.shields.io/badge/Orange_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi)
 
 ---
 ### OS
