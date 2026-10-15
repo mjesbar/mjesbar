@@ -11,19 +11,19 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ### Languages
 
 ![TypeScript](https://img.shields.io/badge/typeScript-1a1a1a?style=for-the-badge&logo=typescript)
-![Golang](https://img.shields.io/badge/go-1a1a1a?style=for-the-badge&logo=go)
-![Python](https://img.shields.io/badge/python-1a1a1a?style=for-the-badge&logo=python)
+![Golang](https://img.shields.io/badge/golang-1a1a1a?style=for-the-badge&logo=go)
 ![C#](https://img.shields.io/badge/c%23-1a1a1a?style=for-the-badge&logo=c-sharp)
-![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash)
+![Python](https://img.shields.io/badge/python-1a1a1a?style=for-the-badge&logo=python)
 ![C++](https://img.shields.io/badge/c++-1a1a1a?style=for-the-badge&logo=c%2B%2B)
 ![C](https://img.shields.io/badge/c-1a1a1a?style=for-the-badge&logo=c)
+![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-1a1a1a?style=for-the-badge&logo=webassembly)
 
 ### Fullstack Frameworks
 
 #### UI
 
-![Figma](https://img.shields.io/badge/React-1a1a1a?style=for-the-badge&logo=figma)
+![Figma](https://img.shields.io/badge/figma-1a1a1a?style=for-the-badge&logo=figma)
 
 #### Mobile
 
@@ -31,21 +31,20 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 
 #### Frontend
 
+![Next.js](https://img.shields.io/badge/next.js-1a1a1a?style=for-the-badge&logo=nextdotjs)
 ![Vite.js](https://img.shields.io/badge/vite-1a1a1a?style=for-the-badge&logo=vite)
 ![React.js](https://img.shields.io/badge/react-1a1a1a?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/next.js-1a1a1a?style=for-the-badge&logo=nextdotjs)
 
 #### Backend
 
-![Express.js](https://img.shields.io/badge/express.js-1a1a1a?style=for-the-badge&logo=express)
+![Fiber](https://img.shields.io/badge/fiber-1a1a1a?style=for-the-badge&logo=go)
+![.Net](https://img.shields.io/badge/.NET-1a1a1a?style=for-the-badge&logo=dotnet)
 ![ElysiaJS](https://img.shields.io/badge/elysiajs-1a1a1a?style=for-the-badge&logo=bun)
 ![FastAPI](https://img.shields.io/badge/fastAPI-1a1a1a?style=for-the-badge&logo=fastapi)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-1a1a1a?style=for-the-badge&logo=tailwind-css)
-![.Net](https://img.shields.io/badge/.NET-1a1a1a?style=for-the-badge&logo=dotnet)
 
 ### Cloud Platforms
 
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-1a1a1a?style=for-the-badge&logo=google-cloud)
+![Google Cloud](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=google-cloud)
 ![AWS](https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=cloudflare)
 
 ### IoT
@@ -60,8 +59,20 @@ I'm a software engineer since more than 3+ years, working on end to end fullstac
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-1a1a1a?style=for-the-badge&logo=ubuntu)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-1a1a1a?style=for-the-badge&logo=dotnet)
 
+### AI
 
-### AI Agents
+#### Cloud Frameworks
+
+![Vercel SDK](https://img.shields.io/badge/Vercel_SDK-1a1a1a?style=for-the-badge&logo=vercel)
+![Google ADK](https://img.shields.io/badge/Google_ADK-1a1a1a?style=for-the-badge&logo=google-gemini)
+![Langchain](https://img.shields.io/badge/Langchain-1a1a1a?style=for-the-badge&logo=langchain)
+
+#### On-Premise Frameworks
+
+![Ollama](https://img.shields.io/badge/Ollama-1a1a1a?style=for-the-badge&logo=ollama)
+![Llama.cpp](https://img.shields.io/badge/llama.cpp-1a1a1a?style=for-the-badge&logo=ollama)
+
+#### Agents
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-1a1a1a?style=for-the-badge&logo=anthropic)
 ![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=for-the-badge&logo=square)
