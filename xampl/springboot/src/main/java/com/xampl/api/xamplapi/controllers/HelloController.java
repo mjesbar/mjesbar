@@ -1,0 +1,15 @@
+package com.xampl.api.xamplapi.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@RestController
+public class HelloController {
+
+  @GetMapping("/hello")
+  public Flux<String> Hello() {
+    return Flux.just("hello world!", "monkey!");
+  }
+}
